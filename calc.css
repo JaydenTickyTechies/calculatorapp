@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+*{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1rem;
+}
+
+body{
+    background: rgb(198,200,255);
+background: linear-gradient(90deg, rgb(123, 128, 255) 0%, rgb(0, 162, 255) 100%);
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.wrapper{
+    display: flex;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.5px);
+-webkit-backdrop-filter: blur(4.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+input[type=text]{
+    width: 100%;
+    padding: 14px;
+    margin-top: 18px;
+    outline: none;
+    border-style: none;
+    border-radius:15px
+}
+
+label{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.wrapper2{
+    display: flex;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-top: 300px;
+}
+input[type=button]{
+    width: 25%;
+    margin-left: 20px;
+    padding: 10px;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 30px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+color: white;
+}
+
+.click1:hover{
+        background: rgba(170, 170, 170, 0.21);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+}
