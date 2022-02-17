@@ -74,10 +74,34 @@ input[type=button]{
 color: white;
 }
 
-.click1:hover{
-        background: rgba(170, 170, 170, 0.21);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(4.5px);
-        -webkit-backdrop-filter: blur(4.5px);
+@media only screen and (max-width: 1280px) {
+    .wrapper{
+        width: 80%;
+    }
+
+    .wrapper1{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    label{
+        font-size: 23px;
+    }
+
+    .wrapper1{
+        width: 90%;
+    }
+
+    .wrapper2{
+        margin-top: 100px;
+    }
 }
